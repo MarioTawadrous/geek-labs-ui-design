@@ -6,7 +6,7 @@ function Header() {
         <div></div>
         <img
           className="pt-2"
-          src="src/assets/street-suite-logo-icon.png"
+          src="images/street-suite-logo-icon.png"
           style={{ height: "45px" }}
         />
 
@@ -62,7 +62,7 @@ function Header() {
 
             <img
               className="bg-white rounded-full"
-              src="src/assets/profile.png"
+              src="images/profile.png"
               width="44px"
             />
             <div className="px-4">
@@ -70,7 +70,7 @@ function Header() {
               <p className="text-sm">Admin</p>
             </div>
             <div className="flex px-2">
-              <img src="src/assets/circle-arrow-down.svg" width={"12px"} />
+              <img src="images/circle-arrow-down.svg" width={"12px"} />
             </div>
           </div>
         </div>

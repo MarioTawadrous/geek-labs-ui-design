@@ -4,6 +4,7 @@ import Automation from "../tabs/automation/automation";
 import Portfolio from "../tabs/portfolio/portfolio";
 import Alerts from "./alerts/alerts";
 import Training from "../tabs/training/training";
+import Badge from "../shared/badge/badge";
 
 function Tabs() {
   const [openTab, setOpenTab] = useState(4);
@@ -12,12 +13,13 @@ function Tabs() {
     <>
       <div className="">
         {/* // navigation */}
-        <div className="grid justify-items-center p-1 bg-black mx-4  rounded-md font-bold font-inter">
-          <ul className=" flex p-1 text-white  lg:text-[48px] sm:text-[25px] gap-1">
+        <div className="grid justify-items-center p-1  bg-black mx-4  rounded-md font-bold font-inter">
+          <ul className=" flex p-1 mt-2 text-white  lg:text-[48px] sm:text-[25px] gap-1">
             <li
               onClick={() => setOpenTab(1)}
-              className={` ${openTab === 1 ? " text-white" : "text-[#4848484D]"}  px-4  rounded`}
+              className={` ${openTab === 1 ? " text-white" : "text-[#4848484D]"}  px-4 rounded`}
             >
+              <Badge />
               Trading
             </li>
             <span className="font-light text-[#B9B9B9]">|</span>
@@ -25,6 +27,7 @@ function Tabs() {
               onClick={() => setOpenTab(2)}
               className={` ${openTab === 2 ? " text-white" : "text-[#4848484D]"}  px-4 rounded`}
             >
+              <Badge />
               Automation
             </li>
             <span className="font-light text-[#B9B9B9]">|</span>
@@ -32,6 +35,7 @@ function Tabs() {
               onClick={() => setOpenTab(3)}
               className={` ${openTab === 3 ? " text-white" : "text-[#4848484D]"}  px-4 rounded`}
             >
+              <Badge />
               Portfolio
             </li>
             <span className="font-light text-[#B9B9B9]">|</span>
