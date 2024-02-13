@@ -1,0 +1,32 @@
+@tailwind base;
+
+@layer base {
+  html {
+    @apply text-neutral-800;
+  }
+
+  html.dark {
+    @apply text-neutral-50;
+    @apply bg-neutral-800;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nubtio-Sans";
+  src: url("../public/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC_opsz_wdth_wght.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter/Inter-VariableFont_slnt_wght.ttf");
+}
