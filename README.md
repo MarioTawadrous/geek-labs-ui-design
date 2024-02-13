@@ -1,8 +1,7 @@
+This project was created for this design: https://www.figma.com/file/fzImSWg55MJ4IEc8sIMMOX/Geek-Labs-UI-Design?type=design&node-id=0%3A1&mode=design&t=e78W0go6RryHULZ4-1
+
+Technologies I use:
 # React + Vite
+# Tailwind Css
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
